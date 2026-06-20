@@ -78,7 +78,7 @@ const PaymentPage = () => {
           doc.text(`Pickup Time: ${pickupTime}`, 10, 40);
           doc.text(`People Count: ${peopleCount}`, 10, 50);
           doc.text(`Guide Language: ${guideLanguage}`, 10, 60);
-          doc.text(`Total Cost: ₹${totalCost}`, 10, 70);
+          doc.text(`Total Cost: Rs. ${totalCost}`, 10, 70);         
           doc.save('payment-confirmation.pdf');
 
           // ✅ Redirect with data

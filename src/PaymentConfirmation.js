@@ -22,7 +22,7 @@ const PaymentConfirmation = () => {
     doc.text(`Pickup Time: ${pickupTime}`, 20, 50); // Corrected the string syntax here
     doc.text(`Number of People: ${peopleCount}`, 20, 60); // Corrected the string syntax here
     doc.text(`Guide(Lang): ${guideLanguage}`, 20, 70); // Corrected the string syntax here
-    doc.text(`Total Cost: ₹${totalCost}`, 20, 80); // Corrected the string syntax here
+    doc.text(`Total Cost: Rs. ${totalCost}`, 20, 80);// Corrected the string syntax here
     doc.text(`Payment Status: ${paymentStatus}`, 20, 90); // Corrected the string syntax here
 
     // Save the PDF (this will trigger the download)

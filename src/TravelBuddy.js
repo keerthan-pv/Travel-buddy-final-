@@ -1,4 +1,5 @@
 import React from "react";
+import './TravelBuddy.css';
 import lalBagh from './images/iskon temple.jpg';
 import github from './images/vecteezy_free-logo-github_53066802.png';
 import linkedin from './images/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930480 (1).png';
@@ -171,7 +172,7 @@ export default function ExploreBangalore() {
   return (
     <div style={styles.body}>
       <header style={styles.header}>
-        <span style={styles.marqueeText}>10% cashback on this winter season!</span>
+        <span className="tb-marquee-text">10% cashback on this winter season!</span>
       </header>
 
       <section style={{ ...styles.sectionAlt, ...styles.container, flexDirection: "row-reverse" }}>
@@ -183,8 +184,8 @@ export default function ExploreBangalore() {
           />
         </div>
         <div style={styles.textBlock}>
-          <h2 style={styles.textBlockH2}>Discover Popular Destinations and Events</h2>
-          <p style={styles.textBlockP}>
+          <h2 className="tb-text-h2">Discover Popular Destinations and Events</h2>
+          <p className="tb-text-p">
             Explore Bangalore’s top attractions like Lalbagh, Cubbon Park, ISKCON, and Bangalore Palace.
             Stroll through Lalbagh’s historic glasshouse and lush greenery, or unwind at Cubbon Park’s peaceful trails.
             Visit the majestic ISKCON temple for spiritual calm and cultural charm.
@@ -203,8 +204,8 @@ export default function ExploreBangalore() {
           />
         </div>
         <div style={styles.textBlock}>
-          <h2 style={styles.textBlockH2}>Are You a Local Guide?</h2>
-          <p style={styles.textBlockP}>
+          <h2 className="tb-text-h2">Are You a Local Guide?</h2>
+          <p className="tb-text-p">
             Share your local expertise, earn money, and connect with travelers from around the world.
             Join our guide network to showcase hidden gems, local cuisines, and cultural spots.
             Meet new people, and help others experience Bangalore like a local.
@@ -214,12 +215,7 @@ export default function ExploreBangalore() {
 
       <section style={styles.commentSection}>
         <h3 style={styles.commentTitle}>What are others saying…</h3>
-        <div style={{
-          ...styles.commentBox,
-          display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: "2rem"
-        }}>
+        <div className="tb-comment-grid">
           <div style={styles.commentCard}>
             <div style={styles.avatar}>
               <img style={styles.avatarImg} src="https://randomuser.me/api/portraits/women/1.jpg" alt="Riya" />

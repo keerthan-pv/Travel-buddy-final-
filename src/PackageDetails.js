@@ -71,15 +71,18 @@ const PackageDetails = () => {
       <p><strong>Facilities:</strong> {pkg.facilities.join(', ')}</p>
       
       {/* Number of people selector */}
+      {/* Number of people selector */}
       <div>
         <label htmlFor="people-count">Number of People:</label>
-        <input 
-          type="number" 
-          id="people-count" 
-          value={peopleCount} 
-          onChange={(e) => setPeopleCount(e.target.value)} 
-          min="1"
-        />
+        <select
+          id="people-count"
+          value={peopleCount}
+          onChange={(e) => setPeopleCount(parseInt(e.target.value, 10))}
+        >
+          {Array.from({ length: 20 }, (_, i) => i + 1).map((num) => (
+            <option key={num} value={num}>{num}</option>
+          ))}
+        </select>
       </div>
       
       {/* Total cost calculation */}

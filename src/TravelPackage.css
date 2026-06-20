@@ -100,6 +100,9 @@
   width: 100%;
   margin-top: 10px;
 }
+#people-count {
+  width: 120px;
+}
 
 .dropdown-container span {
   display: block;
@@ -146,4 +149,36 @@
   border: none;
   border-radius: 8px;
   font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .package-card {
+    flex: 0 0 85%;
+    min-height: auto;
+  }
+
+  .package-card h3 {
+    font-size: 1.2em;
+  }
+
+  .package-image {
+    height: 220px;
+  }
+
+  .dropdown-container label {
+    font-size: 1.1em;
+  }
+
+  .package-selection-form h2 {
+    font-size: 1.6em;
+  }
+
+  .total-cost {
+    font-size: 1.3em;
+  }
+
+  .book-now-container button {
+    width: 100%;
+    font-size: 1.2em;
+  }
 }

@@ -1,0 +1,50 @@
+.tb-marquee-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 10s linear infinite;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+.tb-text-h2 {
+  font-size: 3rem;
+  color: rgb(242, 28, 67);
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.tb-text-p {
+  font-size: 1.6rem;
+  color: black;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-weight: 480;
+}
+
+.tb-comment-grid {
+  max-width: 1800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .tb-marquee-text {
+    font-size: 1.2rem;
+  }
+
+  .tb-text-h2 {
+    font-size: 1.8rem;
+  }
+
+  .tb-text-p {
+    font-size: 1.1rem;
+  }
+
+  .tb-comment-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}

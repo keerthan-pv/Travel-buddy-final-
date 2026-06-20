@@ -10,7 +10,7 @@ import KabiniSafariImage from './images/kabibi.jpg';
 const TravelPackage = () => {
   const navigate = useNavigate();
   const [peopleCount, setPeopleCount] = useState(1);
-  const [pickupTime, setPickupTime] = useState('8am');
+  const [pickupTime, setPickupTime] = useState('7am');
   const [selectedPackageId, setSelectedPackageId] = useState(null);
   // Add this state near the top with other useState hooks
   const [guideLanguage, setGuideLanguage] = useState("no");
@@ -121,7 +121,7 @@ const TravelPackage = () => {
             value={pickupTime}
             onChange={(e) => setPickupTime(e.target.value)}
           >
-            <option value="8am">7:00 AM</option>
+            <option value="7am">7:00 AM</option>
             <option value="10am">10:00 AM</option>
             <option value="12pm">12:00 PM</option>
             <option value="2pm">2:00 PM</option>
@@ -131,15 +131,15 @@ const TravelPackage = () => {
         {/* Number of People */}
         <div className="dropdown-container">
           <label htmlFor="people-count">Number of People:</label>
-          <input
-            type="number"
+          <select
             id="people-count"
-            min="1"
-            max="20"
             value={peopleCount}
-            onChange={(e) => setPeopleCount(e.target.value)}
-            step="1"
-          />
+            onChange={(e) => setPeopleCount(parseInt(e.target.value, 10))}
+          >
+            {Array.from({ length: 20 }, (_, i) => i + 1).map((num) => (
+              <option key={num} value={num}>{num}</option>
+            ))}
+          </select>
           <span>{peopleCount} person(s)</span>
           </div>
            {/* Guide Language Selection */}
