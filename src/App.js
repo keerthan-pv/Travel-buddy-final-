@@ -21,9 +21,9 @@ function App() {
   const navigate = useNavigate(); // useNavigate hook for programmatic navigation
 
   // Function to navigate to profile page
-  const goToProfile = () => {
-    navigate('/profile');
-  };
+  // const goToProfile = () => {
+  //   navigate('/profile');
+  // };
 
   return (
     <div className="App">
