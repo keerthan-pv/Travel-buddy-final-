@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.daa42314.css",
+    "main.js": "/static/js/main.dce30172.js",
+    "static/js/239.7e13ea9a.chunk.js": "/static/js/239.7e13ea9a.chunk.js",
+    "static/js/977.e3513380.chunk.js": "/static/js/977.e3513380.chunk.js",
+    "static/js/455.62281d38.chunk.js": "/static/js/455.62281d38.chunk.js",
+    "static/media/ramnagar (1) (1).jpg": "/static/media/ramnagar (1) (1).59bb3191f4aedec661fe.jpg",
+    "static/media/vecteezy_free-logo-github_53066802.png": "/static/media/vecteezy_free-logo-github_53066802.1f19aebbe87ec9d021eb.png",
+    "static/media/WhatsApp Image 2024-10-30 at 16.32.37_febc866b.jpg": "/static/media/WhatsApp Image 2024-10-30 at 16.32.37_febc866b.bc83b7b376ffd72115f2.jpg",
+    "static/media/vecteezy_gmail-png-icon_16716465.png": "/static/media/vecteezy_gmail-png-icon_16716465.432a39b542c402c03918.png",
+    "static/media/bannergatta.webp": "/static/media/bannergatta.4e20a2add735b557fbca.webp",
+    "static/media/bangalore-palace.jpg": "/static/media/bangalore-palace.f6b1b766ab9d300d8b51.jpg",
+    "static/media/Wonderla.jpg": "/static/media/Wonderla.2a9d4159a16775fdf7be.jpg",
+    "static/media/kabibi.jpg": "/static/media/kabibi.6171f5448d8ab68839b9.jpg",
+    "static/media/logo-modified.png": "/static/media/logo-modified.aade36f0524f6c8bbf6f.png",
+    "static/media/iskon temple.jpg": "/static/media/iskon temple.b2446718405b4c4f99ad.jpg",
+    "static/media/lalbagh.jpg": "/static/media/lalbagh.84e8573054097971fee8.jpg",
+    "static/media/nandi hills.jpg": "/static/media/nandi hills.a5b606c01f77e4f5918a.jpg",
+    "static/media/vidhan soudha.jpg": "/static/media/vidhan soudha.5c898db211098c577b44.jpg",
+    "static/media/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930480 (1).png": "/static/media/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930480 (1).48de26f3b744a1f3dde8.png",
+    "static/media/WhatsApp Image 2024-10-30 at 16.32.25_3e7c70fa.jpg": "/static/media/WhatsApp Image 2024-10-30 at 16.32.25_3e7c70fa.dd9895e6cb995f70d7c7.jpg",
+    "index.html": "/index.html",
+    "main.daa42314.css.map": "/static/css/main.daa42314.css.map",
+    "main.dce30172.js.map": "/static/js/main.dce30172.js.map",
+    "239.7e13ea9a.chunk.js.map": "/static/js/239.7e13ea9a.chunk.js.map",
+    "977.e3513380.chunk.js.map": "/static/js/977.e3513380.chunk.js.map",
+    "455.62281d38.chunk.js.map": "/static/js/455.62281d38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daa42314.css",
+    "static/js/main.dce30172.js"
+  ]
+}
